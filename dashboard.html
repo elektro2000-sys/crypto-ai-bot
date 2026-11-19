@@ -192,10 +192,10 @@ tr.greyed-out td { opacity: 0.45; }
 
 <script>
 const DEFAULTS = {
-    GITHUB_OWNER: 'davidnoordberg',
+    GITHUB_OWNER: 'elektro2000-sys',
     GITHUB_REPO: 'crypto-ai-bot',
     GITHUB_TOKEN: '',
-    BENCHMARK_START_DATE: '2026-06-19'
+    BENCHMARK_START_DATE: '2026-11-19'
 };
 </script>
 
@@ -457,15 +457,11 @@ function switchToDetailTab(botKey) {
 // DATA FETCHING
 // ============================================================
 async function loadBotState(filename) {
-    if (!CFG.GITHUB_TOKEN) return null;
     try {
         const url = `https://api.github.com/repos/${CFG.GITHUB_OWNER}/${CFG.GITHUB_REPO}/contents/${filename}`;
-        const response = await fetch(url, {
-            headers: {
-                'Authorization': `token ${CFG.GITHUB_TOKEN}`,
-                'Accept': 'application/vnd.github.v3+json'
-            }
-        });
+        const headers = { 'Accept': 'application/vnd.github+json' };
+        if (CFG.GITHUB_TOKEN) headers.Authorization = `Bearer ${CFG.GITHUB_TOKEN}`;
+        const response = await fetch(url, { headers });
         if (!response.ok) return null;
         const data = await response.json();
         return JSON.parse(atob(data.content));
@@ -522,21 +518,21 @@ function priceAtTime(candles, ts) {
 }
 
 async function fetchPortfolioHistory(filename) {
-    if (!CFG.GITHUB_TOKEN) return [];
     try {
         const url = `https://api.github.com/repos/${CFG.GITHUB_OWNER}/${CFG.GITHUB_REPO}/commits?path=${filename}&per_page=100`;
-        const commits = await fetch(url, {
-            headers: { 'Authorization': `token ${CFG.GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
-        }).then(r => r.json());
+        const headers = { 'Accept': 'application/vnd.github+json' };
+        if (CFG.GITHUB_TOKEN) headers.Authorization = `Bearer ${CFG.GITHUB_TOKEN}`;
+        const commits = await fetch(url, { headers }).then(r => r.json());
         if (!Array.isArray(commits)) return [];
 
         // Haal eerst alle states op
         const snapshots = [];
         for (const commit of commits) {
+            if (new Date(commit.commit.author.date).getTime() < new Date(CFG.BENCHMARK_START_DATE).getTime()) continue;
             try {
                 const fileAtCommit = await fetch(
                     `https://api.github.com/repos/${CFG.GITHUB_OWNER}/${CFG.GITHUB_REPO}/contents/${filename}?ref=${commit.sha}`,
-                    { headers: { 'Authorization': `token ${CFG.GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }}
+                    { headers }
                 ).then(r => r.json());
                 const state = JSON.parse(atob(fileAtCommit.content));
                 snapshots.push({ ts: new Date(commit.commit.author.date).getTime(), state });
@@ -1122,10 +1118,6 @@ async function renderDetailChart() {
     if (chartInstances.detailLine) { chartInstances.detailLine.destroy(); delete chartInstances.detailLine; }
 
     const filename = STATE_FILES[activeBot];
-    if (!CFG.GITHUB_TOKEN) {
-        if (statusEl) statusEl.textContent = 'GitHub token vereist voor historische data.';
-        return;
-    }
     if (statusEl) statusEl.innerHTML = '<span class="spinner" style="display:inline-block;width:14px;height:14px;border-width:2px;vertical-align:middle"></span> Laden uit GitHub...';
 
     let history = portfolioHistoryCache[activeBot];
@@ -1360,10 +1352,6 @@ async function fetchAndRenderBenchChart() {
     if (!canvas) return;
     if (chartInstances.benchLine) { chartInstances.benchLine.destroy(); delete chartInstances.benchLine; }
 
-    if (!CFG.GITHUB_TOKEN) {
-        if (statusEl) statusEl.textContent = 'GitHub token vereist.';
-        return;
-    }
 
     if (statusEl) statusEl.innerHTML = '<span class="spinner" style="display:inline-block;width:14px;height:14px;border-width:2px;vertical-align:middle"></span> Historische data laden...';
 
