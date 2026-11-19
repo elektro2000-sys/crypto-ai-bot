@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T14:05:07Z",
+  "timestamp": "2026-11-19T17:42:57Z",
   "markt_label": "extreme angst",
   "fng": {
     "score": 10,
@@ -37,7 +37,7 @@
   "regime_summary": {
     "bull_count": 6,
     "bear_count": 0,
-    "atr_ratio": 0.851,
+    "atr_ratio": 0.906,
     "bear_pct_7d": 0.0
   },
   "regime_history": [
@@ -60,6 +60,16 @@
       "bull_regimes": 6,
       "fng": 10,
       "atr_ratio": 0.851
+    },
+    {
+      "ts": "2026-11-19T17:42:57Z",
+      "recommended_active": [
+        "fear"
+      ],
+      "bear_regimes": 0,
+      "bull_regimes": 6,
+      "fng": 10,
+      "atr_ratio": 0.906
     }
   ]
 }
