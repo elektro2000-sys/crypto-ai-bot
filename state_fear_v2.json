@@ -1,17 +1,62 @@
 {
+  "bot_id": "fear_v2",
   "capital_eur": 500,
   "open_positions": {},
+  "cooldown_tickers": [],
   "total_trades": 0,
   "wins": 0,
   "gross_win": 0,
   "gross_loss": 0,
-  "win_rate": 0,
-  "profit_factor": 0,
-  "total_return_pct": 0,
+  "win_rate": 0.0,
+  "profit_factor": 0.0,
+  "total_return_pct": 0.0,
   "portfolio_total": 500,
   "open_positions_value": 0,
   "trades": [],
-  "signals": [],
-  "bot_id": "fear_v2",
-  "cooldown_tickers": []
+  "signals": [
+    {
+      "timestamp": "2026-11-19T21:32:52.834333+00:00",
+      "ticker": "BTC-EUR",
+      "fng": 10,
+      "rsi": 30.41,
+      "atr": 992.11587,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-19T21:32:52.834333+00:00",
+      "ticker": "ETH-EUR",
+      "fng": 10,
+      "rsi": 35.07,
+      "atr": 34.576118,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.72
+    },
+    {
+      "timestamp": "2026-11-19T21:32:52.834333+00:00",
+      "ticker": "SOL-EUR",
+      "fng": 10,
+      "rsi": 41.87,
+      "atr": 1.671492,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-19T21:32:52.834333+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 10,
+      "rsi": 36.94,
+      "atr": 0.001086,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.85
+    }
+  ]
 }
