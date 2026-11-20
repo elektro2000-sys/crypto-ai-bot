@@ -101,6 +101,50 @@
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
       "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T05:43:41.986476+00:00",
+      "ticker": "BTC-EUR",
+      "fng": 12,
+      "rsi": 31.47,
+      "atr": 983.353915,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.72
+    },
+    {
+      "timestamp": "2026-11-20T05:43:41.986476+00:00",
+      "ticker": "ETH-EUR",
+      "fng": 12,
+      "rsi": 33.13,
+      "atr": 34.668354,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T05:43:41.986476+00:00",
+      "ticker": "SOL-EUR",
+      "fng": 12,
+      "rsi": 41.55,
+      "atr": 1.635512,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T05:43:41.986476+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 12,
+      "rsi": 35.02,
+      "atr": 0.001084,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
     }
   ]
 }
