@@ -1,7 +1,22 @@
 {
   "bot_id": "fear_v2",
-  "capital_eur": 500,
-  "open_positions": {},
+  "capital_eur": 400.0,
+  "open_positions": {
+    "ETH-EUR": {
+      "units": 0.06738963,
+      "entry_px": 1480.94,
+      "stop_px": 1365.015649,
+      "trail_high": 1480.94,
+      "invest": 100.0,
+      "entry_ts": "2026-11-20T17:39:42.708076+00:00",
+      "entry_fng": 12,
+      "entry_rsi": 22.06,
+      "size_pct": 20.0,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.69,
+      "llm_reden": "RSI oversold met volume support biedt vroeg entry opportunity, ondanks negatief sentiment. Risk Manager blokkering is false en adviseert 20%, dus voorzichtig long gaan in dip."
+    }
+  },
   "cooldown_tickers": [],
   "total_trades": 0,
   "wins": 0,
@@ -9,10 +24,25 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": 0.0,
-  "portfolio_total": 500,
-  "open_positions_value": 0,
-  "trades": [],
+  "total_return_pct": -0.04,
+  "portfolio_total": 499.8,
+  "open_positions_value": 99.8,
+  "trades": [
+    {
+      "timestamp": "2026-11-20T17:39:42.708076+00:00",
+      "ticker": "ETH-EUR",
+      "action": "BUY",
+      "price": 1480.94,
+      "position_size_pct": 20.0,
+      "position_size_eur": 100.0,
+      "entry_price": 1480.94,
+      "entry_fng": 12,
+      "entry_rsi": 22.06,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.69,
+      "llm_reden": "RSI oversold met volume support biedt vroeg entry opportunity, ondanks negatief sentiment. Risk Manager blokkering is false en adviseert 20%, dus voorzichtig long gaan in dip."
+    }
+  ],
   "signals": [
     {
       "timestamp": "2026-11-19T21:32:52.834333+00:00",
@@ -229,6 +259,52 @@
       "fng": 12,
       "rsi": 30.97,
       "atr": 0.00106,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T17:39:42.708076+00:00",
+      "ticker": "BTC-EUR",
+      "fng": 12,
+      "rsi": 21.91,
+      "atr": 1071.943714,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T17:39:42.708076+00:00",
+      "ticker": "ETH-EUR",
+      "fng": 12,
+      "rsi": 22.06,
+      "atr": 38.64145,
+      "invest": 100.0,
+      "size_pct": 20.0,
+      "stop_px": 1365.015649,
+      "entry_blocked": false,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.69
+    },
+    {
+      "timestamp": "2026-11-20T17:39:42.708076+00:00",
+      "ticker": "SOL-EUR",
+      "fng": 12,
+      "rsi": 31.68,
+      "atr": 1.731878,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T17:39:42.708076+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 12,
+      "rsi": 21.85,
+      "atr": 0.001195,
       "size_pct": 30.0,
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
