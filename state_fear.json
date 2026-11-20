@@ -1,16 +1,27 @@
 {
   "bot_id": "fear",
-  "capital_eur": 350.0,
+  "capital_eur": 245.0,
   "open_positions": {
     "BTC-EUR": {
       "units": 0.00267107,
       "entry_px": 56045.0,
-      "stop_px": 53217.938254088986,
-      "trail_high": 56168.0,
+      "stop_px": 53409.390639197445,
+      "trail_high": 56245.0,
       "invest": 150.0,
       "entry_ts": "2026-11-19T21:30:32.239902+00:00",
       "entry_fng": 10,
       "entry_rsi": 30.58,
+      "size_pct": 30.0
+    },
+    "DOGE-EUR": {
+      "units": 2039.46984294,
+      "entry_px": 0.051381,
+      "stop_px": 0.0482,
+      "trail_high": 0.051381,
+      "invest": 105.0,
+      "entry_ts": "2026-11-20T13:56:56.792457+00:00",
+      "entry_fng": 12,
+      "entry_rsi": 30.97,
       "size_pct": 30.0
     }
   },
@@ -21,7 +32,7 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": -0.0258,
+  "total_return_pct": 0.0049,
   "trades": [
     {
       "timestamp": "2026-11-19T21:30:32.239902+00:00",
@@ -33,6 +44,17 @@
       "entry_price": 56045.0,
       "entry_fng": 10,
       "entry_rsi": 30.58
+    },
+    {
+      "timestamp": "2026-11-20T13:56:56.792457+00:00",
+      "ticker": "DOGE-EUR",
+      "action": "BUY",
+      "price": 0.051381,
+      "position_size_pct": 30.0,
+      "position_size_eur": 105.0,
+      "entry_price": 0.051381,
+      "entry_fng": 12,
+      "entry_rsi": 30.97
     }
   ],
   "signals": [
@@ -45,8 +67,18 @@
       "invest": 150.0,
       "size_pct": 30.0,
       "stop_px": 53076.366676
+    },
+    {
+      "timestamp": "2026-11-20T13:56:56.792457+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 12,
+      "rsi": 30.97,
+      "atr": 0.00106,
+      "invest": 105.0,
+      "size_pct": 30.0,
+      "stop_px": 0.0482
     }
   ],
-  "portfolio_total": 499.8711,
-  "open_positions_value": 149.8711
+  "portfolio_total": 500.0243,
+  "open_positions_value": 255.0243
 }
