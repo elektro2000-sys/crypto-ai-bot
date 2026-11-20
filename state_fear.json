@@ -5,8 +5,8 @@
     "BTC-EUR": {
       "units": 0.00267107,
       "entry_px": 56045.0,
-      "stop_px": 53093.131304294104,
-      "trail_high": 56074.0,
+      "stop_px": 53217.938254088986,
+      "trail_high": 56168.0,
       "invest": 150.0,
       "entry_ts": "2026-11-19T21:30:32.239902+00:00",
       "entry_fng": 10,
@@ -21,7 +21,7 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": -0.0445,
+  "total_return_pct": 0.0057,
   "trades": [
     {
       "timestamp": "2026-11-19T21:30:32.239902+00:00",
@@ -47,6 +47,6 @@
       "stop_px": 53076.366676
     }
   ],
-  "portfolio_total": 499.7776,
-  "open_positions_value": 149.7776
+  "portfolio_total": 500.0287,
+  "open_positions_value": 150.0287
 }
