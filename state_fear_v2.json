@@ -24,9 +24,9 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": -0.04,
-  "portfolio_total": 499.8,
-  "open_positions_value": 99.8,
+  "total_return_pct": -0.2224,
+  "portfolio_total": 498.8882,
+  "open_positions_value": 98.8882,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -305,6 +305,39 @@
       "fng": 12,
       "rsi": 21.85,
       "atr": 0.001195,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T21:30:27.677026+00:00",
+      "ticker": "BTC-EUR",
+      "fng": 12,
+      "rsi": 22.03,
+      "atr": 1091.111,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.78
+    },
+    {
+      "timestamp": "2026-11-20T21:30:27.677026+00:00",
+      "ticker": "SOL-EUR",
+      "fng": 12,
+      "rsi": 26.49,
+      "atr": 1.741009,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-11-20T21:30:27.677026+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 12,
+      "rsi": 21.29,
+      "atr": 0.00119,
       "size_pct": 30.0,
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
