@@ -1,6 +1,6 @@
 {
   "bot_id": "fear_v2",
-  "capital_eur": 400.0,
+  "capital_eur": 320.0,
   "open_positions": {
     "ETH-EUR": {
       "units": 0.06738963,
@@ -15,6 +15,20 @@
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.69,
       "llm_reden": "RSI oversold met volume support biedt vroeg entry opportunity, ondanks negatief sentiment. Risk Manager blokkering is false en adviseert 20%, dus voorzichtig long gaan in dip."
+    },
+    "BTC-EUR": {
+      "units": 0.00156185,
+      "entry_px": 51119.0,
+      "stop_px": 47449.174969,
+      "trail_high": 51119.0,
+      "invest": 80.0,
+      "entry_ts": "2026-11-21T05:39:39.232420+00:00",
+      "entry_fng": 12,
+      "entry_rsi": 17.67,
+      "size_pct": 20.0,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.68,
+      "llm_reden": "Technische oversold-condities (RSI extreme, MA200 afwijking) bieden koopmogelijkheid ondanks sterke bearish sentiment. Risk Manager blokkering afwezig; strikte 20% positionering beperkt downside bij extreme fear-regime."
     }
   },
   "cooldown_tickers": [],
@@ -24,9 +38,9 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": -0.0563,
-  "portfolio_total": 499.7185,
-  "open_positions_value": 99.7185,
+  "total_return_pct": -0.793,
+  "portfolio_total": 496.0349,
+  "open_positions_value": 176.0349,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -41,6 +55,20 @@
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.69,
       "llm_reden": "RSI oversold met volume support biedt vroeg entry opportunity, ondanks negatief sentiment. Risk Manager blokkering is false en adviseert 20%, dus voorzichtig long gaan in dip."
+    },
+    {
+      "timestamp": "2026-11-21T05:39:39.232420+00:00",
+      "ticker": "BTC-EUR",
+      "action": "BUY",
+      "price": 51119.0,
+      "position_size_pct": 20.0,
+      "position_size_eur": 80.0,
+      "entry_price": 51119.0,
+      "entry_fng": 12,
+      "entry_rsi": 17.67,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.68,
+      "llm_reden": "Technische oversold-condities (RSI extreme, MA200 afwijking) bieden koopmogelijkheid ondanks sterke bearish sentiment. Risk Manager blokkering afwezig; strikte 20% positionering beperkt downside bij extreme fear-regime."
     }
   ],
   "signals": [
@@ -371,6 +399,41 @@
       "fng": 12,
       "rsi": 31.77,
       "atr": 0.001214,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-11-21T05:39:39.232420+00:00",
+      "ticker": "BTC-EUR",
+      "fng": 12,
+      "rsi": 17.67,
+      "atr": 1223.27501,
+      "invest": 80.0,
+      "size_pct": 20.0,
+      "stop_px": 47449.174969,
+      "entry_blocked": false,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.68
+    },
+    {
+      "timestamp": "2026-11-21T05:39:39.232420+00:00",
+      "ticker": "SOL-EUR",
+      "fng": 12,
+      "rsi": 23.68,
+      "atr": 1.845996,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-11-21T05:39:39.232420+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 12,
+      "rsi": 23.92,
+      "atr": 0.001368,
       "size_pct": 30.0,
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
