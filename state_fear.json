@@ -5,8 +5,8 @@
     "ETH-EUR": {
       "units": 0.10031004,
       "entry_px": 1423.75,
-      "stop_px": 1359.0126475454822,
-      "trail_high": 1495.61,
+      "stop_px": 1405.9324073042524,
+      "trail_high": 1551.29,
       "invest": 143.1026,
       "entry_ts": "2026-11-21T05:37:55.573811+00:00",
       "entry_fng": 12,
@@ -16,8 +16,8 @@
     "SOL-EUR": {
       "units": 1.61054723,
       "entry_px": 62.073,
-      "stop_px": 56.226472,
-      "trail_high": 62.073,
+      "stop_px": 58.11359613143897,
+      "trail_high": 64.216,
       "invest": 100.1718,
       "entry_ts": "2026-11-21T09:29:49.622681+00:00",
       "entry_fng": 12,
@@ -32,7 +32,7 @@
   "gross_loss": 22.991347182288393,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": -3.2539,
+  "total_return_pct": -1.4466,
   "trades": [
     {
       "timestamp": "2026-11-19T21:30:32.239902+00:00",
@@ -151,6 +151,6 @@
       "stop_px": 56.226472
     }
   ],
-  "portfolio_total": 483.7305,
-  "open_positions_value": 249.9962
+  "portfolio_total": 492.7672,
+  "open_positions_value": 259.0329
 }
