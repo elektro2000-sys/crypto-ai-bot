@@ -1,38 +1,30 @@
 {
   "bot_id": "fear",
-  "capital_eur": 245.0,
+  "capital_eur": 333.9061396774683,
   "open_positions": {
-    "BTC-EUR": {
-      "units": 0.00267107,
-      "entry_px": 56045.0,
-      "stop_px": 53409.390639197445,
-      "trail_high": 56245.0,
-      "invest": 150.0,
-      "entry_ts": "2026-11-19T21:30:32.239902+00:00",
-      "entry_fng": 10,
-      "entry_rsi": 30.58,
-      "size_pct": 30.0
-    },
-    "DOGE-EUR": {
-      "units": 2039.46984294,
-      "entry_px": 0.051381,
-      "stop_px": 0.0482,
-      "trail_high": 0.051381,
-      "invest": 105.0,
-      "entry_ts": "2026-11-20T13:56:56.792457+00:00",
+    "ETH-EUR": {
+      "units": 0.10031004,
+      "entry_px": 1423.75,
+      "stop_px": 1297.616972,
+      "trail_high": 1423.75,
+      "invest": 143.1026,
+      "entry_ts": "2026-11-21T05:37:55.573811+00:00",
       "entry_fng": 12,
-      "entry_rsi": 30.97,
+      "entry_rsi": 20.26,
       "size_pct": 30.0
     }
   },
-  "cooldown_tickers": [],
-  "total_trades": 0,
+  "cooldown_tickers": [
+    "BTC-EUR",
+    "DOGE-EUR"
+  ],
+  "total_trades": 2,
   "wins": 0,
   "gross_win": 0,
-  "gross_loss": 0,
+  "gross_loss": 22.991347182288393,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": -2.017,
+  "total_return_pct": -4.6555,
   "trades": [
     {
       "timestamp": "2026-11-19T21:30:32.239902+00:00",
@@ -55,6 +47,47 @@
       "entry_price": 0.051381,
       "entry_fng": 12,
       "entry_rsi": 30.97
+    },
+    {
+      "timestamp": "2026-11-21T05:37:55.573669+00:00",
+      "ticker": "BTC-EUR",
+      "action": "SELL",
+      "price": 51033.0,
+      "position_size_pct": 30.0,
+      "position_size_eur": 150.0,
+      "entry_price": 56045.0,
+      "exit_price": 51033.0,
+      "pnl_pct": -9.3067,
+      "pnl_eur": -13.96,
+      "exit_reason": "trail_stop",
+      "entry_fng": 10,
+      "exit_fng": 12
+    },
+    {
+      "timestamp": "2026-11-21T05:37:55.573669+00:00",
+      "ticker": "DOGE-EUR",
+      "action": "SELL",
+      "price": 0.04715,
+      "position_size_pct": 21.0,
+      "position_size_eur": 105.0,
+      "entry_price": 0.051381,
+      "exit_price": 0.04715,
+      "pnl_pct": -8.6013,
+      "pnl_eur": -9.0313,
+      "exit_reason": "trail_stop",
+      "entry_fng": 12,
+      "exit_fng": 12
+    },
+    {
+      "timestamp": "2026-11-21T05:37:55.573811+00:00",
+      "ticker": "ETH-EUR",
+      "action": "BUY",
+      "price": 1423.75,
+      "position_size_pct": 30.0,
+      "position_size_eur": 143.1026,
+      "entry_price": 1423.75,
+      "entry_fng": 12,
+      "entry_rsi": 20.26
     }
   ],
   "signals": [
@@ -77,8 +110,18 @@
       "invest": 105.0,
       "size_pct": 30.0,
       "stop_px": 0.0482
+    },
+    {
+      "timestamp": "2026-11-21T05:37:55.573811+00:00",
+      "ticker": "ETH-EUR",
+      "fng": 12,
+      "rsi": 20.26,
+      "atr": 42.044343,
+      "invest": 143.1026,
+      "size_pct": 30.0,
+      "stop_px": 1297.616972
     }
   ],
-  "portfolio_total": 489.9152,
-  "open_positions_value": 244.9152
+  "portfolio_total": 476.7226,
+  "open_positions_value": 142.8164
 }
