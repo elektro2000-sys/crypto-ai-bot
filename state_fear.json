@@ -1,30 +1,38 @@
 {
   "bot_id": "fear",
-  "capital_eur": 333.9061396774683,
+  "capital_eur": 233.7342977742278,
   "open_positions": {
     "ETH-EUR": {
       "units": 0.10031004,
       "entry_px": 1423.75,
-      "stop_px": 1297.616972,
-      "trail_high": 1423.75,
+      "stop_px": 1359.0126475454822,
+      "trail_high": 1495.61,
       "invest": 143.1026,
       "entry_ts": "2026-11-21T05:37:55.573811+00:00",
       "entry_fng": 12,
       "entry_rsi": 20.26,
       "size_pct": 30.0
+    },
+    "SOL-EUR": {
+      "units": 1.61054723,
+      "entry_px": 62.073,
+      "stop_px": 56.226472,
+      "trail_high": 62.073,
+      "invest": 100.1718,
+      "entry_ts": "2026-11-21T09:29:49.622681+00:00",
+      "entry_fng": 12,
+      "entry_rsi": 35.19,
+      "size_pct": 30.0
     }
   },
-  "cooldown_tickers": [
-    "BTC-EUR",
-    "DOGE-EUR"
-  ],
+  "cooldown_tickers": [],
   "total_trades": 2,
   "wins": 0,
   "gross_win": 0,
   "gross_loss": 22.991347182288393,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": -4.6555,
+  "total_return_pct": -3.2539,
   "trades": [
     {
       "timestamp": "2026-11-19T21:30:32.239902+00:00",
@@ -88,6 +96,17 @@
       "entry_price": 1423.75,
       "entry_fng": 12,
       "entry_rsi": 20.26
+    },
+    {
+      "timestamp": "2026-11-21T09:29:49.622681+00:00",
+      "ticker": "SOL-EUR",
+      "action": "BUY",
+      "price": 62.073,
+      "position_size_pct": 30.0,
+      "position_size_eur": 100.1718,
+      "entry_price": 62.073,
+      "entry_fng": 12,
+      "entry_rsi": 35.19
     }
   ],
   "signals": [
@@ -120,8 +139,18 @@
       "invest": 143.1026,
       "size_pct": 30.0,
       "stop_px": 1297.616972
+    },
+    {
+      "timestamp": "2026-11-21T09:29:49.622681+00:00",
+      "ticker": "SOL-EUR",
+      "fng": 12,
+      "rsi": 35.19,
+      "atr": 1.948843,
+      "invest": 100.1718,
+      "size_pct": 30.0,
+      "stop_px": 56.226472
     }
   ],
-  "portfolio_total": 476.7226,
-  "open_positions_value": 142.8164
+  "portfolio_total": 483.7305,
+  "open_positions_value": 249.9962
 }
