@@ -38,9 +38,9 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": 2.1106,
-  "portfolio_total": 510.553,
-  "open_positions_value": 190.553,
+  "total_return_pct": 1.8806,
+  "portfolio_total": 509.4032,
+  "open_positions_value": 189.4032,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -467,6 +467,17 @@
       "fng": 12,
       "rsi": 42.75,
       "atr": 0.001504,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-11-21T17:26:04.394631+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 12,
+      "rsi": 43.26,
+      "atr": 0.001431,
       "size_pct": 30.0,
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
