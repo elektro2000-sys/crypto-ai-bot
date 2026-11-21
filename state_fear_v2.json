@@ -19,8 +19,8 @@
     "BTC-EUR": {
       "units": 0.00156185,
       "entry_px": 51119.0,
-      "stop_px": 50780.69459339336,
-      "trail_high": 55100.0,
+      "stop_px": 51257.11421145405,
+      "trail_high": 55161.0,
       "invest": 80.0,
       "entry_ts": "2026-11-21T05:39:39.232420+00:00",
       "entry_fng": 12,
@@ -38,9 +38,9 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": 1.8806,
-  "portfolio_total": 509.4032,
-  "open_positions_value": 189.4032,
+  "total_return_pct": 1.9728,
+  "portfolio_total": 509.8638,
+  "open_positions_value": 189.8638,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -478,6 +478,17 @@
       "fng": 12,
       "rsi": 43.26,
       "atr": 0.001431,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-11-21T21:21:53.174546+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 12,
+      "rsi": 43.68,
+      "atr": 0.001349,
       "size_pct": 30.0,
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
