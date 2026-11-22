@@ -5,8 +5,8 @@
     "ETH-EUR": {
       "units": 0.06738963,
       "entry_px": 1480.94,
-      "stop_px": 1405.2524073042523,
-      "trail_high": 1550.61,
+      "stop_px": 1433.2099560106449,
+      "trail_high": 1556.82,
       "invest": 100.0,
       "entry_ts": "2026-11-20T17:39:42.708076+00:00",
       "entry_fng": 12,
@@ -19,8 +19,8 @@
     "BTC-EUR": {
       "units": 0.00156185,
       "entry_px": 51119.0,
-      "stop_px": 51257.11421145405,
-      "trail_high": 55161.0,
+      "stop_px": 51503.65265044355,
+      "trail_high": 55443.0,
       "invest": 80.0,
       "entry_ts": "2026-11-21T05:39:39.232420+00:00",
       "entry_fng": 12,
@@ -38,9 +38,9 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": 1.8299,
-  "portfolio_total": 509.1496,
-  "open_positions_value": 189.1496,
+  "total_return_pct": 2.3014,
+  "portfolio_total": 511.5072,
+  "open_positions_value": 191.5072,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -544,6 +544,17 @@
       "fng": 11,
       "rsi": 43.06,
       "atr": 0.001263,
+      "size_pct": 30.0,
+      "entry_blocked": true,
+      "llm_beslissing": "NIETS",
+      "llm_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-11-22T13:42:19.877673+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 11,
+      "rsi": 44.22,
+      "atr": 0.001277,
       "size_pct": 30.0,
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
