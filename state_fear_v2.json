@@ -1,12 +1,12 @@
 {
   "bot_id": "fear_v2",
-  "capital_eur": 320.0,
+  "capital_eur": 224.0,
   "open_positions": {
     "ETH-EUR": {
       "units": 0.06738963,
       "entry_px": 1480.94,
-      "stop_px": 1433.2099560106449,
-      "trail_high": 1556.82,
+      "stop_px": 1445.0228162561139,
+      "trail_high": 1562.54,
       "invest": 100.0,
       "entry_ts": "2026-11-20T17:39:42.708076+00:00",
       "entry_fng": 12,
@@ -19,8 +19,8 @@
     "BTC-EUR": {
       "units": 0.00156185,
       "entry_px": 51119.0,
-      "stop_px": 51503.65265044355,
-      "trail_high": 55443.0,
+      "stop_px": 51676.46317381166,
+      "trail_high": 55457.0,
       "invest": 80.0,
       "entry_ts": "2026-11-21T05:39:39.232420+00:00",
       "entry_fng": 12,
@@ -29,6 +29,20 @@
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.68,
       "llm_reden": "Technische oversold-condities (RSI extreme, MA200 afwijking) bieden koopmogelijkheid ondanks sterke bearish sentiment. Risk Manager blokkering afwezig; strikte 20% positionering beperkt downside bij extreme fear-regime."
+    },
+    "DOGE-EUR": {
+      "units": 1904.46657523,
+      "entry_px": 0.050307,
+      "stop_px": 0.046672,
+      "trail_high": 0.050307,
+      "invest": 96.0,
+      "entry_ts": "2026-11-22T17:26:43.837616+00:00",
+      "entry_fng": 11,
+      "entry_rsi": 44.61,
+      "size_pct": 30.0,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3,
+      "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
     }
   },
   "cooldown_tickers": [],
@@ -38,9 +52,9 @@
   "gross_loss": 0,
   "win_rate": 0.0,
   "profit_factor": 0.0,
-  "total_return_pct": 2.3014,
-  "portfolio_total": 511.5072,
-  "open_positions_value": 191.5072,
+  "total_return_pct": 2.3445,
+  "portfolio_total": 511.7225,
+  "open_positions_value": 287.7225,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -69,6 +83,20 @@
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.68,
       "llm_reden": "Technische oversold-condities (RSI extreme, MA200 afwijking) bieden koopmogelijkheid ondanks sterke bearish sentiment. Risk Manager blokkering afwezig; strikte 20% positionering beperkt downside bij extreme fear-regime."
+    },
+    {
+      "timestamp": "2026-11-22T17:26:43.837616+00:00",
+      "ticker": "DOGE-EUR",
+      "action": "BUY",
+      "price": 0.050307,
+      "position_size_pct": 30.0,
+      "position_size_eur": 96.0,
+      "entry_price": 0.050307,
+      "entry_fng": 11,
+      "entry_rsi": 44.61,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3,
+      "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
     }
   ],
   "signals": [
@@ -559,6 +587,19 @@
       "entry_blocked": true,
       "llm_beslissing": "NIETS",
       "llm_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-11-22T17:26:43.837616+00:00",
+      "ticker": "DOGE-EUR",
+      "fng": 11,
+      "rsi": 44.61,
+      "atr": 0.001212,
+      "invest": 96.0,
+      "size_pct": 30.0,
+      "stop_px": 0.046672,
+      "entry_blocked": false,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3
     }
   ]
 }
