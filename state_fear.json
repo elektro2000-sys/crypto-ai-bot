@@ -1,38 +1,29 @@
 {
   "bot_id": "fear",
-  "capital_eur": 233.7342977742278,
+  "capital_eur": 345.3052341466014,
   "open_positions": {
     "ETH-EUR": {
       "units": 0.10031004,
       "entry_px": 1423.75,
-      "stop_px": 1468.5918780106344,
-      "trail_high": 1578.76,
+      "stop_px": 1523.370307465653,
+      "trail_high": 1642.66,
       "invest": 143.1026,
       "entry_ts": "2026-11-21T05:37:55.573811+00:00",
       "entry_fng": 12,
       "entry_rsi": 20.26,
       "size_pct": 30.0
-    },
-    "SOL-EUR": {
-      "units": 1.61054723,
-      "entry_px": 62.073,
-      "stop_px": 61.3433990906381,
-      "trail_high": 65.845,
-      "invest": 100.1718,
-      "entry_ts": "2026-11-21T09:29:49.622681+00:00",
-      "entry_fng": 12,
-      "entry_rsi": 35.19,
-      "size_pct": 30.0
     }
   },
-  "cooldown_tickers": [],
-  "total_trades": 2,
-  "wins": 0,
-  "gross_win": 0,
+  "cooldown_tickers": [
+    "SOL-EUR"
+  ],
+  "total_trades": 3,
+  "wins": 1,
+  "gross_win": 11.399094564583562,
   "gross_loss": 22.991347182288393,
-  "win_rate": 0.0,
-  "profit_factor": 0.0,
-  "total_return_pct": -0.5822,
+  "win_rate": 33.3333,
+  "profit_factor": 0.4958,
+  "total_return_pct": 2.0161,
   "trades": [
     {
       "timestamp": "2026-11-19T21:30:32.239902+00:00",
@@ -107,6 +98,21 @@
       "entry_price": 62.073,
       "entry_fng": 12,
       "entry_rsi": 35.19
+    },
+    {
+      "timestamp": "2026-11-23T14:02:54.710787+00:00",
+      "ticker": "SOL-EUR",
+      "action": "SELL",
+      "price": 69.414,
+      "position_size_pct": 20.03,
+      "position_size_eur": 100.1718,
+      "entry_price": 62.073,
+      "exit_price": 69.414,
+      "pnl_pct": 11.3795,
+      "pnl_eur": 11.3991,
+      "exit_reason": "rsi_exit:69",
+      "entry_fng": 12,
+      "exit_fng": 11
     }
   ],
   "signals": [
@@ -151,6 +157,6 @@
       "stop_px": 56.226472
     }
   ],
-  "portfolio_total": 497.089,
-  "open_positions_value": 263.3547
+  "portfolio_total": 510.0805,
+  "open_positions_value": 164.7753
 }
