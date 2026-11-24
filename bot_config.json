@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-24T14:06:19Z",
+  "timestamp": "2026-11-24T17:39:10Z",
   "markt_label": "extreme angst",
   "fng": {
     "score": 11,
     "label": "Extreme Fear",
     "trend": "stable"
   },
-  "redenering": "FNG 11 stable, 5 bull regimes.",
+  "redenering": "FNG 11 stable, 6 bull regimes.",
   "actieve_bots": [
     "fear",
     "fear_v2"
@@ -31,13 +31,13 @@
     "ETH-EUR": "bull",
     "SOL-EUR": "bull",
     "DOGE-EUR": "bull",
-    "AVAX-EUR": "neutraal",
+    "AVAX-EUR": "bull",
     "ADA-EUR": "bull"
   },
   "regime_summary": {
-    "bull_count": 5,
+    "bull_count": 6,
     "bear_count": 0,
-    "atr_ratio": 0.948,
+    "atr_ratio": 0.938,
     "bear_pct_7d": 0.0
   },
   "regime_history": [
@@ -360,6 +360,16 @@
       "bull_regimes": 5,
       "fng": 11,
       "atr_ratio": 0.948
+    },
+    {
+      "ts": "2026-11-24T17:39:10Z",
+      "recommended_active": [
+        "fear"
+      ],
+      "bear_regimes": 0,
+      "bull_regimes": 6,
+      "fng": 11,
+      "atr_ratio": 0.938
     }
   ]
 }
