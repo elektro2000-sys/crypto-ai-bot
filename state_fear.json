@@ -14,16 +14,14 @@
       "size_pct": 30.0
     }
   },
-  "cooldown_tickers": [
-    "ETH-EUR"
-  ],
+  "cooldown_tickers": [],
   "total_trades": 4,
   "wins": 2,
   "gross_win": 19.49673229075554,
   "gross_loss": 22.991347182288393,
   "win_rate": 50.0,
   "profit_factor": 0.848,
-  "total_return_pct": -0.7584,
+  "total_return_pct": -0.8042,
   "trades": [
     {
       "timestamp": "2026-11-19T21:30:32.239902+00:00",
@@ -193,6 +191,6 @@
       "stop_px": 50525.014695
     }
   ],
-  "portfolio_total": 496.2078,
-  "open_positions_value": 148.654
+  "portfolio_total": 495.9792,
+  "open_positions_value": 148.4254
 }
