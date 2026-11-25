@@ -1,21 +1,7 @@
 {
   "bot_id": "fear_v2",
-  "capital_eur": 200.7492226242415,
+  "capital_eur": 205.9378693783069,
   "open_positions": {
-    "DOGE-EUR": {
-      "units": 1904.46657523,
-      "entry_px": 0.050307,
-      "stop_px": 0.0497278943503803,
-      "trail_high": 0.053381,
-      "invest": 96.0,
-      "entry_ts": "2026-11-22T17:26:43.837616+00:00",
-      "entry_fng": 11,
-      "entry_rsi": 44.61,
-      "size_pct": 30.0,
-      "llm_beslissing": "KOOP",
-      "llm_confidence": 0.3,
-      "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
-    },
     "SOL-EUR": {
       "units": 1.94961332,
       "entry_px": 62.916,
@@ -43,18 +29,34 @@
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.3,
       "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
+    },
+    "ETH-EUR": {
+      "units": 0.05893309,
+      "entry_px": 1494.62,
+      "stop_px": 1391.196722,
+      "trail_high": 1494.62,
+      "invest": 88.2591,
+      "entry_ts": "2026-11-25T09:52:49.455582+00:00",
+      "entry_fng": 13,
+      "entry_rsi": 36.49,
+      "size_pct": 30.0,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3,
+      "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
     }
   },
-  "cooldown_tickers": [],
-  "total_trades": 2,
+  "cooldown_tickers": [
+    "DOGE-EUR"
+  ],
+  "total_trades": 3,
   "wins": 2,
   "gross_win": 5.6920822676805995,
-  "gross_loss": 0,
-  "win_rate": 100.0,
-  "profit_factor": 0.0,
-  "total_return_pct": 0.6295,
-  "portfolio_total": 503.1473,
-  "open_positions_value": 302.3981,
+  "gross_loss": 2.5522663696129313,
+  "win_rate": 66.6667,
+  "profit_factor": 2.2302,
+  "total_return_pct": -0.0608,
+  "portfolio_total": 499.6959,
+  "open_positions_value": 293.758,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -152,6 +154,35 @@
       "entry_price": 53862.0,
       "entry_fng": 13,
       "entry_rsi": 38.64,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3,
+      "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
+    },
+    {
+      "timestamp": "2026-11-25T09:52:49.455415+00:00",
+      "ticker": "DOGE-EUR",
+      "action": "SELL",
+      "price": 0.049166,
+      "position_size_pct": 19.2,
+      "position_size_eur": 96.0,
+      "entry_price": 0.050307,
+      "exit_price": 0.049166,
+      "pnl_pct": -2.6586,
+      "pnl_eur": -2.5523,
+      "exit_reason": "trail_stop",
+      "entry_fng": 11,
+      "exit_fng": 13
+    },
+    {
+      "timestamp": "2026-11-25T09:52:49.455582+00:00",
+      "ticker": "ETH-EUR",
+      "action": "BUY",
+      "price": 1494.62,
+      "position_size_pct": 30.0,
+      "position_size_eur": 88.2591,
+      "entry_price": 1494.62,
+      "entry_fng": 13,
+      "entry_rsi": 36.49,
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.3,
       "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
@@ -681,6 +712,19 @@
       "invest": 86.0354,
       "size_pct": 30.0,
       "stop_px": 50544.16671,
+      "entry_blocked": false,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3
+    },
+    {
+      "timestamp": "2026-11-25T09:52:49.455582+00:00",
+      "ticker": "ETH-EUR",
+      "fng": 13,
+      "rsi": 36.49,
+      "atr": 34.474426,
+      "invest": 88.2591,
+      "size_pct": 30.0,
+      "stop_px": 1391.196722,
       "entry_blocked": false,
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.3
