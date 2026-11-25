@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25T02:08:20Z",
+  "timestamp": "2026-11-25T05:44:33Z",
   "markt_label": "extreme angst",
   "fng": {
     "score": 13,
@@ -32,12 +32,12 @@
     "SOL-EUR": "neutraal",
     "DOGE-EUR": "bull",
     "AVAX-EUR": "neutraal",
-    "ADA-EUR": "neutraal"
+    "ADA-EUR": "bull"
   },
   "regime_summary": {
-    "bull_count": 1,
+    "bull_count": 2,
     "bear_count": 0,
-    "atr_ratio": 0.903,
+    "atr_ratio": 0.875,
     "bear_pct_7d": 0.0
   },
   "regime_history": [
@@ -390,6 +390,16 @@
       "bull_regimes": 1,
       "fng": 13,
       "atr_ratio": 0.903
+    },
+    {
+      "ts": "2026-11-25T05:44:33Z",
+      "recommended_active": [
+        "fear"
+      ],
+      "bear_regimes": 0,
+      "bull_regimes": 2,
+      "fng": 13,
+      "atr_ratio": 0.875
     }
   ]
 }
