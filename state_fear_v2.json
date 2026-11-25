@@ -1,6 +1,6 @@
 {
   "bot_id": "fear_v2",
-  "capital_eur": 286.7846037489164,
+  "capital_eur": 200.7492226242415,
   "open_positions": {
     "DOGE-EUR": {
       "units": 1904.46657523,
@@ -29,21 +29,32 @@
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.3,
       "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
+    },
+    "BTC-EUR": {
+      "units": 0.00159414,
+      "entry_px": 53862.0,
+      "stop_px": 50544.16671,
+      "trail_high": 53862.0,
+      "invest": 86.0354,
+      "entry_ts": "2026-11-25T05:40:26.170257+00:00",
+      "entry_fng": 13,
+      "entry_rsi": 38.64,
+      "size_pct": 30.0,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3,
+      "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
     }
   },
-  "cooldown_tickers": [
-    "ETH-EUR",
-    "BTC-EUR"
-  ],
+  "cooldown_tickers": [],
   "total_trades": 2,
   "wins": 2,
   "gross_win": 5.6920822676805995,
   "gross_loss": 0,
   "win_rate": 100.0,
   "profit_factor": 0.0,
-  "total_return_pct": 0.8723,
-  "portfolio_total": 504.3613,
-  "open_positions_value": 217.5767,
+  "total_return_pct": 0.6295,
+  "portfolio_total": 503.1473,
+  "open_positions_value": 302.3981,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
@@ -127,6 +138,20 @@
       "entry_price": 62.916,
       "entry_fng": 13,
       "entry_rsi": 41.75,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3,
+      "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
+    },
+    {
+      "timestamp": "2026-11-25T05:40:26.170257+00:00",
+      "ticker": "BTC-EUR",
+      "action": "BUY",
+      "price": 53862.0,
+      "position_size_pct": 30.0,
+      "position_size_eur": 86.0354,
+      "entry_price": 53862.0,
+      "entry_fng": 13,
+      "entry_rsi": 38.64,
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.3,
       "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
@@ -643,6 +668,19 @@
       "invest": 122.9077,
       "size_pct": 30.0,
       "stop_px": 57.777935,
+      "entry_blocked": false,
+      "llm_beslissing": "KOOP",
+      "llm_confidence": 0.3
+    },
+    {
+      "timestamp": "2026-11-25T05:40:26.170257+00:00",
+      "ticker": "BTC-EUR",
+      "fng": 13,
+      "rsi": 38.64,
+      "atr": 1105.94443,
+      "invest": 86.0354,
+      "size_pct": 30.0,
+      "stop_px": 50544.16671,
       "entry_blocked": false,
       "llm_beslissing": "KOOP",
       "llm_confidence": 0.3
