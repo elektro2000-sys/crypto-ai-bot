@@ -45,18 +45,16 @@
       "llm_reden": "Rule-based fallback: alle LLM agents gefaald."
     }
   },
-  "cooldown_tickers": [
-    "DOGE-EUR"
-  ],
+  "cooldown_tickers": [],
   "total_trades": 3,
   "wins": 2,
   "gross_win": 5.6920822676805995,
   "gross_loss": 2.5522663696129313,
   "win_rate": 66.6667,
   "profit_factor": 2.2302,
-  "total_return_pct": -0.0608,
-  "portfolio_total": 499.6959,
-  "open_positions_value": 293.758,
+  "total_return_pct": -0.5579,
+  "portfolio_total": 497.2104,
+  "open_positions_value": 291.2725,
   "trades": [
     {
       "timestamp": "2026-11-20T17:39:42.708076+00:00",
